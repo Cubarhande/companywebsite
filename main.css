@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: block;
+}
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar-light .navbar-brand span{
+    font-size: 40px;
+    color: brown;
+}
+.nav-link{
+    font-size: 20px;
+    color: black!important;
+}
+.nav-link:hover{
+    color:brown!important;
+    border-bottom: 3px solid brown!important;
+    border-top: 3px solid brown!important;
+
+}
+
+.ml-auto {
+    margin-left: auto!important;
+}
+img.d-block.w-100 {
+    background-size: cover;
+    height: auto;
+    max-height: 650px;
+    opacity: 0.9;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: red!important;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.carousel-item h5 {
+    font-size: 5.25rem;
+    color: #dc3545;
+    margin-bottom: 10.5rem;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff!important;
+}
+
+.box-style{
+    color:  brown;
+    }
+    #about-info{
+        background-image: url(./about-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    }
+    #about-info .col-md-5 {
+        background: rgba(36,82,146,0.5);
+        color: #fff;
+    }
+    .text-justify{
+        text-align: justify;
+    }
+    .btn {
+        background-color: rgb(231, 89, 89)!important;
+        color: #fff!important;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    .btn:hover {
+        background-color: brown!important;
+        color: #fff!important;
+       
+    }
+    #services{
+        margin: 40px 0;
+    }
+    #services  .wrap {
+        box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+        transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+        height: 310px;
+        text-align: center;
+        margin: 15px;
+    }
+    #services .wrap:hover {
+        box-shadow: 0 14px 28px rgb(178 53 53 / 25%), 0 10px 10px rgb(207 46 46 / 22%);
+    }
+    #services h6 {
+        font-weight: bold;
+    }
+    #services  .wrap:hover h6 {
+        color: #ff5b00;
+    }
+    #services a {
+        color: #000;
+        text-decoration : none;
+    }
+    #services .fa {
+        background-color: #dc3545;
+        border-radius: 50%;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 50px;
+    color: white;
+    padding: 20px;
+    }
+    #services p{
+        text-align: justify;
+    }
+    .title {
+        font-size: 2em;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #contact{
+        margin: 40px 0;
+    }
+    form{
+        width: 95%;
+    }
+
+    
